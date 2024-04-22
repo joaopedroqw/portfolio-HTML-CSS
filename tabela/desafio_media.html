@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table{
+        width: 700px;
+        border-collapse: collapse;
+    }
+    td, th{
+border: solid 1px black;
+padding: 10px;
+    }
+    .cinza, th{
+        background-color: gray;
+        color: white;
+    }
+    .white{
+        background-color: white;
+        color: black;
+    }
+</style>
+<body>
+    <table>
+        <thead>
+        <tr>
+           <th> Área </th>
+           <th> Disciplinas </th>
+           <th scope="rowgroup" rowspan="2"> Notas  </th>
+           <th colspan="1"> Nota 1</th>
+           <th> Nota 2  </th>
+           <th> Média</th>
+        
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4" scope="rowgroup" class="white"> Exatas</th>
+                <td> Matematica</td>
+                <td> 7.5</td>
+                <td> 4.5</td>
+                <td> 6.0</td>
+            </tr>
+            <tr>
+        
+                <td> Física</td>
+                <td> 3.5</td>
+                <td> 2.5</td>
+                <td> 2.0</td>
+            </tr>
+            <tr>
+        
+                <td> Química</td>
+                <td> 9.5</td>
+                <td> 5.5</td>
+                <td> 6.0</td>
+            </tr>
+            <tr>
+        
+                <td> Biologia</td>
+                <td> 4.5</td>
+                <td> 6.5</td>
+                <td> 5.0</td>
+            </tr>
+            <tr>
+                <td class="cinza" colspan="4" >Média de Exatas</td>
+                <td class="cinza"> 6.5</td>
+            </tr>
+            <tr>
+                <th class="white" scope="rowgroup" rowspan="2"> Humanas</th>
+                <td> História</td>
+                <td> 4.5</td>
+                <td> 8.5</td>
+                <td>6.5</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td> 5.5</td>
+                <td> 9.5</td>
+                <td> 7.0</td>
+            </tr>
+            <tr>
+                <td class="cinza"> Média de Humanas</td>
+                <td class="cinza"> 5.0</td>
+            </tr>
+        </tbody>
+        </body>
+        </html>
+    </table>

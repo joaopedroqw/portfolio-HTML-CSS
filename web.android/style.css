@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'idroid';
+    src: url(idroid.otf) format(OpenType);
+}
+:root{
+    --cor0:#83e1ad;
+    --cor1: #069d5c;
+    --cor2:#87f390a2;
+    --cor3:#0F5E0D
+}
+
+body{
+    background-color:#f0d9cc9d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+   background-image: linear-gradient(to bottom, #00D36D,#005F31);
+    padding: 10px;
+    color: aliceblue;
+}
+header h5{
+    margin-top: 20px;
+    font-size: 1.1em
+}
+
+nav{
+text-align: left;
+margin-top: 20px;
+padding: 20px;
+box-sizing: border-box;
+
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    transition-duration: 0.5s;
+    margin: 3px;
+}
+nav a:hover{
+    color: white;
+    
+    background-color: #00d36d5b;
+}
+nav li{
+    list-style: none;
+}
+
+main{
+   
+    margin: auto;
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.525);
+    margin-bottom: 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+main p{
+    text-align: justify;
+    text-indent: 30px;
+}
+main > a {
+    text-decoration: underline;
+    background-color: var(--cor1);
+    color: black;
+}
+
+ article{
+    padding: 10px;
+
+            }
+  .center {
+                display: block;
+               margin: auto;
+            }
+h2{
+font-family: 'idroid', Helvetica, sans-serif;
+font-weight: bold;
+color: var(--cor3);
+background-image: linear-gradient(to right, var(--cor1), transparent);
+text-indent: 8px;
+}
+
+aside{
+    background-color: var(--cor0);
+    border-radius: 20px 20px 20px 20px;
+    margin: 10px;
+    text-align: justify;
+    text-indent: 20px;
+    padding: 10px;
+    box-shadow: 0px 0px 0px black;
+}
+aside ul {
+    columns: 2;
+    padding: 20px;
+    list-style: '\1F5F8';
+}
+.externo::after{
+    content: '\1F517';
+}
+aside h3{
+    background-image: linear-gradient(to right, var(--cor3), transparent);
+    font-family: 'idroid', Helvetica, sans-serif;
+    font-size: 1.2em;
+    border-radius: 7px 0px 0px 7px;
+    margin-bottom: 22px;
+    margin-top: -8px;
+}
+aside  a {
+color: black;
+    
+}
+aside a:hover{
+    color: blue;
+}
+.center{
+    max-width: 350px;
+}
+.video{
+    background-color:  var(--cor0);
+    position: relative;
+    padding-bottom: 59%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.video > iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75%;
+    height: 75%;
+    padding: 50px;
+}
+img{
+    padding: 15px;
+}
+footer{
+    text-align: center;
+    margin: 50px;
+}

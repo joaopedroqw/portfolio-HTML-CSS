@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300..700&family=Tilt+Neon&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgba(0, 0, 0, 0.714);
+    font-family: 'PT SeriF', Helvetica, sans-serif;
+}
+table{
+    width: 800px;
+    border-collapse: collapse;
+    background-color: white;
+}
+.titulo{
+    font-size: 2em;
+    width: 300px;
+    background-color: gray;
+}
+th, td{
+    border: 2px solid gray;
+    padding: 10px;
+}
+.tamanho{
+    font-size: 1.9em;
+    padding: 30px;
+    color: white;
+}
+ .coluna{
+    text-align: justify;
+}
+#c1{
+    background-color: #28E1DC;
+ padding: 30px;
+}
+#c2{
+    background-color: #E0C95E;
+}
+#c3{
+    background-color: #C51E1C;
+}
